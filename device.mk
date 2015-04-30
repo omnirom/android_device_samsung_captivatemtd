@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES = \
 # Prebuilt kl and kcm keymaps
 PRODUCT_COPY_FILES += \
 	device/samsung/captivatemtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
-	device/samsung/captivatemtd/aries-keypad.kcm:system/usr/keychars/aries-keypad.kcm
+	device/samsung/captivatemtd/aries-keypad.kcm:system/usr/keychars/aries-keypad.kcm \
+	device/samsung/captivatemtd/cypress-touchkey.kl:system/usr/keylayout/cypress-touchkey.kl
 
 # Misc other modules
 PRODUCT_PACKAGES += \
